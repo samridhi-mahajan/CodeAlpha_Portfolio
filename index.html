@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8625ac6713.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="image/profile-pho.jpg">
+    <!-- AOS CDN LINK -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Samridhi's portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#firstsection" class="logo">Portfolio</a>
+            <div class="links ">
+                <ul id="slide-bar">
+                    <li><a onclick="hide()" href="#secondsection">About me</a></li>
+                    <li><a onclick="hide()" href="#thirdsection">Resume</a></li>
+                    <li><a onclick="hide()" href="#contact">Contact</a></li>
+                    <li><a onclick="hide()" href="image/My-project.pdf .pdf" download>Download</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="firstsection">
+        <div class="firstbox">
+            <h1 class="hi">Hello there!</h1>
+            <h1>I'm Samridhi</h1>
+            <h3>I'm <span id="element">Web Developer</span></h3>
+            <a href="image/My-project.pdf" download class="btn">Download cv</a>
+        </div>
+
+        <img src="image/Innovation-amico.png" alt="" class="profile">
+        <ul>
+            <li class="lis1"><a
+                    href=https://instagram.com/mahajan.samridhi.5?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D><i
+                        class="fa-brands fa-instagram" style="color: #ad64d7;"></i></a></li>
+            <li class="lis2"><a href=https://www.linkedin.com/in/samridhi-mahajan-91b842214"><i
+                        class="fa-brands fa-linkedin" style="color: #ad64d7;"></i></a></li>
+            <li class="lis3"><a href="https://twitter.com/Rajatsoni07"><i class="fa-brands fa-twitter"
+                        style="color: #ad64d7;"></i></i></a>
+            </li>
+            <li class="lis4"><a href=https://github.com/samridhi-mahajan><i class="fa-brands fa-github"
+                        style="color: #ad64d7;"></i></a></li>
+        </ul>
+    </section>
+    <section id="secondsection">
+        <div class="about ">
+            <img src="image/profile-pho.jpg" alt="" data-aos="fade-right">
+            <div class="about-1">
+                <h1 data-aos="fade-left">About Me</h1>
+                <p data-aos="fade"> I am a optimists person to look the good side of things.I'm a person with friendly
+                    nature and makes everyone comfortable around me. My hobbies include travelling which helps to
+                    explore new places and also help to make new friends.I'm a strong personality with great sense of
+                    humour. I considered myself a responsible and orderly person. My skills in html and css help to make
+                    a responsibe website.</p>
+            </div>
+        </div>
+
+        <section id="thirdsection">
+            <h1 class="title" data-aos="fade">Qualificatins</h1>
+
+            <div class="education">
+                <div class="detail0" data-aos="fade-up">
+                    <div class="detail0-1">
+                        <h2>2020-Present</h2>
+                        <h4>The Technological Institute of Textile & Sciences</h4>
+                        <h6>B.Tech in Computer Science</h6>
+                        <br>
+                        <h4>Bhiwani, Haryana</h4>
+                        <div class="grade">
+                            <!-- <h1>Grade</h1> -->
+                            <h3>still going on</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="detail" data-aos="fade-up">
+                    <div class="detail-1">
+                        <h2>2019-2020</h2>
+                        <h4>LIttle Angle'Hr. Sec. School</h4>
+                        <h6>12th</h6>
+                        <br>
+                        <h4>Jammu and Kashmir</h4>
+                        <div class="grade">
+                            <h1>Grade</h1>
+                            <h3>85.4%</h3>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="detail-2" data-aos="fade-up">
+                    <div class="detail-2-1">
+                        <h2>2017-2018</h2>
+                        <h4>Tiny Scholars Sr. Sec. School</h4>
+                        <h6>10th</h6>
+                        <br>
+                        <h4>Jammu and Kashmi</h4>
+                        <div class="grade">
+                            <h1>Grade</h1>
+                            <h3>88.6%</h3>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h1>Skills</h1>
+            <div class="skill-sec">
+
+                <div class="web" data-aos="fade">
+                    <h2>Web Delopment</h2>
+                    <div class="abt-web">
+                        <div class="skills-html">
+                            <h5>HTML</h5>
+                            <span>80%</span>
+                        </div>
+                        <hr class="hr1">
+                        <div class="skills-css">
+                            <h5>CSS</h5>
+                            <span>70%</span>
+                        </div>
+                        <hr class="hr2">
+                        <div class="skills-java">
+                            <h5>JavaScript</h5>
+                            <span>50%</span>
+                        </div>
+                        <hr class="hr3">
+                        <div class="skills-word">
+                            <h5>Wordpress</h5>
+                            <span>90%</span>
+                        </div>
+                        <hr class="hr4">
+
+                    </div>
+                </div>
+                <img src="image/Site Stats-amico.png" alt="" data-aos="fade">
+            </div>
+        </section>
+
+
+        <footer id="contact">
+            <div class="contact-info">
+                <h1>Contact me</h1>
+                <h4><i class="fa-solid fa-envelope" style="color: #ad64d7;"></i> samridhi.mahajan.kathua.7051@gmail.com
+                </h4>
+                <h4><i class="fa-solid fa-phone" style="color: #ad64d7;"></i> +91 6006203975</h4>
+                <ul>
+                    <li class="lis1"><a
+                            href=https://instagram.com/mahajan.samridhi.5?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D><i
+                                class="fa-brands fa-instagram" style="color: #ad64d7;"></i></a></li>
+                    <li class="lis2"><a href=https://www.linkedin.com/in/samridhi-mahajan-91b842214"><i
+                                class="fa-brands fa-linkedin" style="color: #ad64d7;"></i></a></li>
+                    <li class="lis3"><a href="https://twitter.com/Rajatsoni07"><i class="fa-brands fa-twitter"
+                                style="color: #ad64d7;"></i></i></a>
+                    </li>
+                    <li class="lis4"><a href=https://github.com/samridhi-mahajan><i class="fa-brands fa-github"
+                                style="color: #ad64d7;"></i></a></li>
+                </ul>
+
+            </div>
+            <div class="container form">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Username" placeholder="Enter your name" required>
+                    <input type="email" name="Email" placeholder="Enter your email" id="email" required>
+                    <textarea id="massage" name="Message" placeholder="Enter your message" cols="20" rows="5"
+                        required></textarea><br>
+                    <!-- <button>send</button> -->
+                    <button type="submit" name="submit" id="sent" onclick="send()">send</button>
+                </form>
+                <span id="sent-msg"></span>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <!-- <script>
+            var typed = new Typed('#element', {
+                strings: ['Sketch artist', 'designer', 'web developer', 'photo editor'],
+                typeSpeed: 50,
+                loop: true,
+                loopCount: Infinity,
+            });
+        </script> -->
+
+        <!-- AOS script -->
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset: 300,
+                duration: 2000
+            })
+        </script>
+
+        <script>
+            let sidemenu = document.getElementById('slide-bar');
+            function hide() {
+                sidemenu.style.right = "-200px";
+                sidemenu.style.transition = "0.2s";
+            }
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+        <!-- ------contact form script------ -->
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyH2sIgkQ6NgkPUzMQ3NO1eKWtVoEgc7CVTk6ohtjZgn7b6xUph00Xl6FXY9DaxxbyEdg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById('sent-msg')
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 3000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+
+</body>
+
+</html>
